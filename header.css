@@ -1,0 +1,745 @@
+header{
+    display: flex;
+}
+.headerlogo img{
+    width: 8em;
+    margin: 1.2em 3em 0 0;
+    cursor: pointer;
+}
+
+
+
+.headermenu{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.8rem;
+    margin: 0.8em 1.5em;
+}
+.headermenu li a{
+    text-decoration: none;
+    color: #131313;
+    padding: 0.3em 0.8em;
+    margin: 0 0.5em;
+}
+.headermenu li a:hover{
+    background-color: #f4f4f4;
+    border-radius: 0.5em;
+    color: var(--m-color);
+}
+
+
+
+
+
+
+.headerbuttom{
+    display: flex;
+    margin: 1.1em -2em;
+    cursor: pointer;
+}
+.headerbuttom .but1{
+    margin-left: 2em;
+    width: 12em; height: 3em;
+    text-align: center;
+}
+.headerbuttom .but2{
+    width: 8em; height: 3em;
+    text-align: center;
+}
+.headerbuttom .but3{
+    margin-right: 2em;
+    width: 10em; height: 3em;
+    text-align: center;
+    background-color: var(--m-color);
+    color: white;
+    box-shadow: 0.15em 0.15em 0.2em #000000;
+    transition: 0.2s;
+}
+.headerbuttom .but3 input{
+    color: white;
+}
+.headerbuttom span i{
+    margin-left: 0.3em;
+}
+.headerbuttom span input{
+    background-color: transparent;
+    border: none; outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.headerbuttom span{
+    background-color:  #f4f4f4;
+    border-radius: 0.5em;
+    padding: 0.7em 0;
+}
+.headerbuttom .but3:hover{
+    box-shadow: none;
+    background-color: #8522fe;
+}
+.headerbuttom .but3:hover i{
+    font-size: 1.1rem;
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+.headerbuttom .but1:hover{
+    background-color: #e6e4e4;
+}
+.headerbuttom .but1:hover i{
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+.headerbuttom .but2:hover{
+    background-color: #e6e4e4;
+}
+.headerbuttom .but2:hover i{
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+@media (max-width:1920px){
+    .headerlogo img{
+        margin-left: 5rem;
+    }
+    .headerbuttom>*{
+        transform: translateX(-10rem);
+    }
+}
+@media (max-width:1785px){
+    .headerlogo img{
+        margin-left: 0rem;
+    }
+    .headerbuttom>*{
+        transform: translateX(0);
+    }
+}
+@media (max-width:1500px){
+    .headerbuttom{
+        margin: 1.1em -2em;
+    }
+    .headerbuttom .but1{
+        margin-left: 2em;
+        width: 10em; height: 3em;
+    }
+    .headerbuttom .but2{
+        width: 7em; height: 2.7em;
+    }
+    .headerbuttom .but3{
+        margin-right: 2em;
+        width: 8em; height: 3em;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 1rem;
+    }
+    .headerbuttom span input{
+        font-size: 1.2rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 1.1rem;
+        transform: translateY(-2px);
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3px);
+    }
+    
+}
+@media (max-width:1400px){
+    .headermenu{
+        font-size: 1.5rem;
+        margin: 0.6em 1.3em;
+    }
+    .headermenu>*{
+        transform: translateY(8px);
+    }
+    .headermenu li a{
+        padding: 0.3em 0.8em;
+        margin: 0 0.5em;
+    }
+}
+@media (max-width:1290px){
+    .headermenu{
+        font-size: 1.5rem;
+        margin: 0.6em 1.3em;
+    }
+    .headermenu>*{
+        transform: translateY(8px);
+    }
+    .headermenu li a{
+        padding: 0.2em 0.7em;
+        margin: 0 0.3em;
+    }
+}
+@media (max-width:1180px){
+    .headerbuttom{
+        margin: 1.1em -2em;
+    }
+    .headerbuttom .but1{
+        margin-left: 1em;
+        width: 8.5em; height: 2.5em;
+    }
+    .headerbuttom .but2{
+        width: 6em; height: 2.3em;
+    }
+    .headerbuttom .but3{
+        margin-right: 1em;
+        width: 7.2em; height: 2.4em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.85rem;
+    }
+    .headerbuttom span input{
+        font-size: 1rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 0.95rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3px);
+        font-size: 0.9rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.95rem;
+        transform: translateY(-2px);
+    }
+}
+@media (max-width:1100px){
+    .headerlogo img{
+        width: 7em;
+        margin: 1.2em 1em 0 0;
+    }
+
+
+    .headermenu{
+        font-size: 1.3rem;
+        margin: 0.6em 1em;
+        padding-left: 1rem;
+    }
+    .headermenu>*{
+        transform: translateY(12px);
+    }
+    .headermenu li a{
+        padding: 0.2em 0.7em;
+        margin: 0 0.3em;
+    }
+}
+@media (max-width:980px){
+    .headerlogo img{
+        width: 6em;
+        margin: 1.2em 1em 0 0;
+    }
+
+
+    .headermenu{
+        font-size: 1.2rem;
+        margin: 0.6em 1em;
+        padding-left: 1rem;
+    }
+    .headermenu>*{
+        transform: translateY(12px);
+    }
+    .headermenu li a{
+        padding: 0.2em 0.7em;
+        margin: 0 0.3em;
+    }
+}
+@media (max-width:950px){
+    .headerbuttom{
+        margin: 1.1em -2em;
+    }
+    .headerbuttom .but1{
+        margin-left: 1em;
+        width: 6.7em; height: 2.3em;
+    }
+    .headerbuttom .but2{
+        width: 4.6em; height: 2.3em;
+    }
+    .headerbuttom .but3{
+        margin-right: 1em;
+        width: 5.5em; height: 2.4em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.65rem;
+    }
+    .headerbuttom span input{
+        font-size: 0.8rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-2px);
+        font-size: 0.75rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-2.5px);
+        font-size: 0.7rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.75rem;
+        transform: translateY(-2px);
+    }
+}
+@media (max-width:850px){
+    .headerlogo img{
+        width: 6em;
+        margin: 1.2em 1em 0 0;
+    }
+
+
+    .headermenu{
+        font-size: 1rem;
+        margin: 0.6em 1em;
+        padding-left: 1rem;
+    }
+    .headermenu>*{
+        transform: translateY(15px);
+    }
+    .headermenu li a{
+        padding: 0.2em 0.7em;
+        margin: 0 0.3em;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .headerlogo img{
+        width: 10em;
+        margin: 1.2em 3em 0 0;
+        padding-bottom: 1em;
+        padding-left: 1.5em;
+    }
+
+
+    .headermenu>*{
+        display: none;
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.1em -2em;
+    }
+    .headerbuttom .but1{
+        margin-left: 1em;
+        width: 10em; height: 2.6em;
+    }
+    .headerbuttom .but2{
+        width: 7.2em; height: 2.6em;
+    }
+    .headerbuttom .but3{
+        margin-right: 1em;
+        width: 8.3em; height: 2.6em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.9rem;
+    }
+    .headerbuttom span input{
+        font-size: 1.3rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 1rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 1rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 1rem;
+        transform: translateY(-3px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:680px){
+    .headerlogo img{
+        width: 10em;
+        margin: 1.2em 1.5em 0 0;
+        padding-bottom: 1em;
+        padding-left: 1em;
+    }
+
+
+    .headermenu>*{
+        display: none;
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.1em -2em;
+    }
+    .headerbuttom .but1{
+        margin-left: 1em;
+        width: 10em; height: 2.6em;
+    }
+    .headerbuttom .but2{
+        width: 7.2em; height: 2.6em;
+    }
+    .headerbuttom .but3{
+        margin-right: 1em;
+        width: 8.3em; height: 2.6em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.9rem;
+    }
+    .headerbuttom span input{
+        font-size: 1.3rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 1rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 1rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 1rem;
+        transform: translateY(-3px);
+    }
+}
+@media (max-width:620px){
+    .headerlogo img{
+        width: 8em;
+        margin: 1.2em 1.5em 0 0;
+        padding-bottom: 1em;
+        padding-left: 1em;
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.1em -2em;
+    }
+    .headerbuttom .but1{
+        margin-left: 1em;
+        width: 8.4em; height: 2.6em;
+    }
+    .headerbuttom .but2{
+        width: 5.9em; height: 2.6em;
+    }
+    .headerbuttom .but3{
+        margin-right: 1em;
+        width: 7em; height: 2.6em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.7rem;
+    }
+    .headerbuttom span input{
+        font-size: 1.1rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 0.8rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 0.8rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.8rem;
+        transform: translateY(-3px);
+    }
+}
+@media (max-width:530px){
+    .headerlogo img{
+        width: 7em;
+        margin: 1em;
+        transform: translateY(5px);
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.1em -2em;
+    }
+    .headerbuttom>*{
+        transform: translateX(2em);
+    }
+    .headerbuttom .but1{
+        margin-left: 1em;
+        width: 8.4em; height: 2.6em;
+    }
+    .headerbuttom .but2{
+        width: 5.9em; height: 2.6em;
+    }
+    .headerbuttom .but3{
+        margin-right: 1em;
+        width: 7em; height: 2.6em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.7rem;
+    }
+    .headerbuttom span input{
+        font-size: 1.1rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 0.8rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 0.8rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.8rem;
+        transform: translateY(-3px);
+    }
+}
+@media (max-width:490px){
+    .headerlogo img{
+        width: 7em;
+        margin: 1em;
+        transform: translateY(5px);
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.2em -2em;
+    }
+    .headerbuttom>*{
+        transform: translateX(2em);
+    }
+    .headerbuttom .but1{
+        margin-left: 0.7em;
+        width: 7em; height: 2.3em;
+    }
+    .headerbuttom .but2{
+        width: 5em; height: 2.3em;
+    }
+    .headerbuttom .but3{
+        margin-right: 0.7em;
+        width: 6em; height: 2.3em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.5rem;
+    }
+    .headerbuttom span input{
+        font-size: 0.9rem;
+    }
+    .headerbuttom span{
+        padding: 0.7em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 0.6rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 0.6rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.6rem;
+        transform: translateY(-3px);
+    }
+}
+@media (max-width:440px){
+    .headerlogo img{
+        width: 6em;
+        margin: 1em;
+        transform: translateY(7px);
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.2em -2em;
+    }
+    .headerbuttom>*{
+        transform: translateX(2em);
+    }
+    .headerbuttom .but1{
+        margin-left: 0.7em;
+        width: 6em; height: 2em;
+    }
+    .headerbuttom .but2{
+        width: 4em; height: 2em;
+    }
+    .headerbuttom .but3{
+        margin-right: 0.7em;
+        width: 4.5em; height: 2em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.4rem;
+    }
+    .headerbuttom span input{
+        font-size: 0.7rem;
+    }
+    .headerbuttom span{
+        padding: 0.45em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 0.5rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 0.5rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.5rem;
+        transform: translateY(-3px);
+    }
+}
+@media (max-width:360px){
+    .headerlogo img{
+        width: 5em;
+        margin: 0.5em;
+        margin-top: 1em;
+        transform: translateY(7px);
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.2em -2em;
+    }
+    .headerbuttom>*{
+        transform: translateX(2em);
+    }
+    .headerbuttom .but1{
+        margin-left: 0.7em;
+        width: 6em; height: 2em;
+    }
+    .headerbuttom .but2{
+        width: 4em; height: 2em;
+    }
+    .headerbuttom .but3{
+        margin-right: 0.7em;
+        width: 4.5em; height: 2em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.4rem;
+    }
+    .headerbuttom span input{
+        font-size: 0.7rem;
+    }
+    .headerbuttom span{
+        padding: 0.45em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 0.5rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 0.5rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.5rem;
+        transform: translateY(-3px);
+    }
+}
+@media (max-width:340px){
+    .headerlogo img{
+        width: 5em;
+        margin: 0.5em;
+        margin-top: 1em;
+        transform: translateY(7px);
+    }
+
+
+
+    .headerbuttom{
+        margin: 1.2em -2em;
+    }
+    .headerbuttom>*{
+        transform: translateX(2em);
+    }
+    .headerbuttom .but1{
+        margin-left: 0.7em;
+        width: 5em; height: 2em;
+    }
+    .headerbuttom .but2{
+        width: 3.5em; height: 2em;
+    }
+    .headerbuttom .but3{
+        margin-right: 0.7em;
+        width: 4em; height: 2em;
+        box-shadow: 0.10em 0.10em 0.2em #000000;
+    }
+    .headerbuttom span i{
+        margin-left: 0.3em;
+        font-size: 0.4rem;
+    }
+    .headerbuttom span input{
+        font-size: 0.6rem;
+    }
+    .headerbuttom span{
+        padding: 0.45em 0;
+    }
+    .headerbuttom .but1:hover i{
+        transform: translateY(-3px);
+        font-size: 0.45rem;
+    }
+    .headerbuttom .but2:hover i{
+        transform: translateY(-3.5px);
+        font-size: 0.45rem;
+    }
+    .headerbuttom .but3:hover i{
+        font-size: 0.45rem;
+        transform: translateY(-3px);
+    }
+}

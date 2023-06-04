@@ -1,0 +1,273 @@
+footer{
+    margin-top: 8rem;
+}
+.footicons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5rem;
+    padding-bottom: 3rem;
+}
+.footicons section{
+    cursor: pointer;
+}
+
+
+
+
+.footsec1{
+    display: flex;
+    align-items: center;
+    width: 22.2rem;
+    margin-top: 3rem;
+}
+.footdiv1{
+    margin: 1rem 1.5rem 0 0;
+}
+.footsec1 .footdiv1 h3{
+    font-size: 1.7rem;
+    font-family: font2;
+}
+.footsec1 .footdiv1 p{
+    font-size: 1.2rem;
+    color: #3e3e3e;
+    margin-top: 0.7rem;
+}
+
+
+
+.footsec2{
+    display: flex;
+    align-items: center;
+    width: 22.2rem;
+    margin-top: 3rem;
+}
+.footdiv2{
+    margin: 1rem 1.5rem 0 0;
+}
+.footsec2 .footdiv2 h3{
+    font-size: 1.7rem;
+    font-family: font2;
+}
+.footsec2 .footdiv2 p{
+    font-size: 1.2rem;
+    color: #3e3e3e;
+    margin-top: 0.7rem;
+}
+
+
+
+
+.footsec3{
+    display: flex;
+    align-items: center;
+    width: 22.2rem;
+    margin-top: 3rem;
+}
+.footdiv3{
+    margin: 1rem 1.5rem 0 0;
+}
+.footsec3 .footdiv3 h3{
+    font-size: 1.5rem;
+    font-family: font2;
+}
+.footsec3 .footdiv3 p{
+    font-size: 1.2rem;
+    color: #3e3e3e;
+    margin-top: 0.7rem;
+}
+
+
+
+
+@media (max-width:1155px){
+    .footsec img{
+        width: 5rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.4rem;
+    }
+    .footsec .footdiv p{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:1035px){
+    .footsec img{
+        width: 4rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.3rem;
+    }
+    .footsec .footdiv p{
+        font-size: 1rem;
+    }
+}
+@media (max-width:950px){
+    .footsec img{
+        width: 3.5rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.25rem;
+    }
+    .footsec3 .footdiv3 h3{
+        font-size: 1.2rem;
+    }
+    .footsec .footdiv p{
+        font-size: 0.95rem;
+    }
+}
+@media (max-width:890px){
+    .footsec img{
+        width: 3rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.2rem;
+    }
+    .footsec3 .footdiv3 h3{
+        font-size: 1.1rem;
+    }
+    .footsec .footdiv p{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:830px){
+    .footsec3 .footdiv3 h3{
+        font-size: 1rem;
+    }
+    .footsec .footdiv p{
+        font-size: 0.85rem;
+    }
+}
+@media (max-width:780px){
+    .footsec .footdiv h3{
+        font-size: 1rem;
+    }
+    .footsec3 .footdiv3 h3{
+        font-size: 0.9rem;
+    }
+    .footsec .footdiv p{
+        font-size: 0.85rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .footicons{
+        flex-direction: column;
+    }
+    .line1 hr{
+        margin:  0 -2rem;
+    }
+    .footsec{
+        margin-right: 2.5rem;
+    }
+    .footdiv p{ 
+        width: 100vw;
+    }
+    .footsec img{
+        width: 5rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.5rem;
+    }
+    .footsec .footdiv p{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width:680px){
+    .footsec{
+        margin-right: 1rem;
+    }
+}
+@media (max-width:580px){
+    .footsec{
+        margin-right: 0;
+        position: relative;
+        left: 1rem;
+    }
+    .footsec img{
+        width: 4.5rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.45rem;
+    }
+    .footsec .footdiv p{
+        font-size: 1.15rem;
+    }
+}
+@media (max-width:530px){
+    .footsec{
+        margin-right: 0;
+        position: relative;
+        left: 2rem;
+    }
+    .line1 hr{
+        margin: 0 -4rem;
+    }
+    .footsec img{
+        width: 4rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.4rem;
+    }
+    .footsec .footdiv p{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:460px){
+    .footsec{
+        margin-right: 0;
+        position: relative;
+        left: 3rem;
+    }
+    .line1 hr{
+        margin: 0 -5rem;
+    }
+    .footsec img{
+        width: 3.5rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.3rem;
+    }
+    .footsec .footdiv p{
+        font-size: 1rem;
+    }
+}
+@media (max-width:400px){
+    .footsec{
+        margin-right: 0;
+        position: relative;
+        left: 3rem;
+    }
+    .line1 hr{
+        margin: 0 -5rem;
+    }
+    .footsec img{
+        width: 3rem;
+    }
+    .footsec .footdiv h3{
+        font-size: 1.2rem;
+    }
+    .footsec .footdiv p{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:340px){
+    .footsec .footdiv{
+        position: relative;
+        left: 0.7rem;
+    }
+}
+@media (max-width:330px){
+    .footsec{
+        position: relative;
+        left: 4.2rem;
+    }
+}

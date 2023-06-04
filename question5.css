@@ -1,0 +1,462 @@
+.question5{
+    width: 80%;
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 2em;
+}
+.q5{
+    background-color: #ebebeb;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 8px var(--m-color);
+}
+.checkbox5{
+    display: none;
+}
+.qution5{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+.qtext5{
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-right: 0.8%;
+    cursor: pointer;
+    position: relative;
+    bottom: 0.1em;
+    padding-left: 20.5;
+}
+.lup5{
+    font-size: 1.5rem;
+    display: none;
+    transition: 0.2s;
+}
+.lup5 label{
+    cursor: pointer;
+}
+.lup5:hover{
+    color: var(--m-color);
+}
+.ldown5{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.ldown5:hover{
+    color: var(--m-color);
+}
+.line5l{
+    display: none;
+    margin-top: 1em;
+}
+.qpara5{
+    font-size: 1.4rem;
+    color: #3e3e3e;
+    margin-top: 0.8em;
+    display: none;
+}
+#infocheck5:checked ~ .lup5{
+    display: inline;
+}
+#infocheck5:checked ~ .ldown5{
+    display: none;
+}
+#infocheck5:checked ~ .line5l{
+    display: block;
+}
+#infocheck5:checked ~ .qpara5{
+    display: block;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1920px){
+    .qtext5{
+        padding-left: 26.5em;
+    }
+}
+@media (max-width:1670px){
+    .qtext5{
+        padding-left: 25em;
+    }
+}
+@media (max-width:1610px){
+    .qtext5{
+        padding-left: 23em;
+    }
+}
+@media (max-width:1550px){
+    .qtext5{
+        padding-left: 21.5em;
+    }
+}
+@media (max-width:1500px){
+    .qtext5{
+        padding-left: 20.5em;
+    }
+}
+@media (max-width:1460px){
+    .qtext5{
+        padding-left: 19.5em;
+    }
+}
+@media (max-width:1425px){
+    .qtext5{
+        padding-left: 18.5em;
+    }
+}
+@media (max-width:1390px){
+    .qtext5{
+        padding-left: 17.5em;
+    }
+}
+@media (max-width:1355px){
+    .qtext5{
+        padding-left: 16.5em;
+    }
+}
+@media (max-width:1320px){
+    .qtext5{
+        padding-left: 15.5em;
+    }
+}
+@media (max-width:1288px){
+    .qtext5{
+        padding-left: 14.5em;
+    }
+}
+@media (max-width:1252px){
+    .qtext5{
+        padding-left: 13.5em;
+    }
+}
+@media (max-width:1217px){
+    .qtext5{
+        padding-left: 12.5em;
+    }
+}
+@media (max-width:1185px){
+    .qtext5{
+        padding-left: 11.5em;
+    }
+}
+@media (max-width:1150px){
+    .qtext5{
+        padding-left: 10.5em;
+    }
+}
+@media (max-width:1112px){
+    .qtext5{
+        padding-left: 9.5em;
+    }
+}
+@media (max-width:1085px){
+    .qtext5{
+        padding-left: 8.5em;
+    }
+}
+@media (max-width:1050px){
+    .qtext5{
+        padding-left: 7.5em;
+    }
+}
+@media (max-width:1015px){
+    .qtext5{
+        padding-left: 6.5em;
+    }
+}
+@media (max-width:977px){
+    .qtext5{
+        padding-left: 5.5em;
+    }
+}
+@media (max-width:965px){
+    .qtext5{
+        padding-left: 5em;
+    }
+}
+@media (max-width:935px){
+    .qtext5{
+        padding-left: 4.5em;
+    }
+}
+@media (max-width:910px){
+    .qtext5{
+        padding-left: 3.5em;
+    }
+}
+@media (max-width:885px){
+    .qtext5{
+        padding-left: 2.5em;
+    }
+}
+@media (max-width:860px){
+    .qtext5{
+        padding-left: 2em;
+    }
+}
+@media (max-width:835px){
+    .qtext5{
+        font-size: 1.6rem;
+        margin-left: 1.2em;
+    }
+}
+@media (max-width:815px){
+    .qtext5{
+        margin-left: 0.2em;
+    }
+}
+@media (max-width:785px){
+    .qtext5{
+        font-size: 1.5rem;
+        margin-left: 1em;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+    .qution5{
+        font-size: 1.3rem;
+    }
+    .qtext5{
+        font-size: 1.3rem;
+        padding-left: 4.7em;
+    }
+    .lup5{
+        font-size: 1.2rem;
+    }
+    .ldown5{
+        font-size: 1.2rem;
+    }
+    .qpara5{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width:745px){
+    .qtext5{
+        padding-left: 4.4em;
+    }
+}
+@media (max-width:735px){
+    .qtext5{
+        padding-left: 4em;
+    }
+}
+@media (max-width:725px){
+    .qtext5{
+        padding-left: 3.6em;
+    }
+}
+@media (max-width:715px){
+    .qtext5{
+        padding-left: 3em;
+    }
+}
+@media (max-width:710px){
+    .qution5{
+        font-size: 1.2rem;
+    }
+    .qtext5{
+        font-size: 1.2rem;
+        padding-left: 4.5em;
+    }
+}
+@media (max-width:693px){
+    .qution5{
+        font-size: 1.1rem;
+    }
+    .qtext5{
+        padding-left:5em;
+        font-size:1.15rem ;
+    }
+}
+@media (max-width:672px){
+    .qtext5{
+        padding-left: 4.2em;
+    }
+} 
+@media (max-width:653px){
+    .qtext5{
+        padding-left:4em;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:637px){
+    .qtext5{
+        padding-left:3.5em;
+    }
+}
+@media (max-width:628px){
+    .qtext5{
+        padding-left:3.3em;
+        font-size: 1.05em;
+    }
+}
+@media (max-width:613px){
+    .qtext5{
+        padding-left: 2.5em;
+    }
+}
+@media (max-width:585px){
+    .qtext5{
+        padding-left:2.3em;
+    }
+}
+@media (max-width:568px){
+    .qution5{
+        margin-right: 0;
+    }
+    .qtext5{
+        font-size: 1rem;
+        padding-left: 2.5em;
+    }
+}
+@media (max-width:545px){
+    .qtext5{
+        padding-left: 1.7em;
+    }
+}
+@media (max-width:533px){
+    .qtext5{
+        font-size: 0.95rem;
+        padding-left: 2em;
+    }
+    .qpara5{
+        font-size: 1rem;
+    }
+}
+@media (max-width:520px){
+    .qtext5{
+        padding-left: 1.5em;
+    }
+}
+@media (max-width:505px){
+    .qtext5{
+        font-size: 0.9rem;
+        padding-left: 1.7em;
+    }
+}
+@media (max-width:485px){
+    .qtext5{
+        padding-left: 2.5em;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:473px){
+    .qtext5{
+        padding-left: 2.3em;
+    }
+}
+@media (max-width:458px){
+    .qtext5{
+        padding-left: 1.5em;
+    }
+}
+@media (max-width:442px){
+    .qution5{
+        font-size: 1rem;
+    }
+    .qtext5{
+        padding-left:3em;
+        font-size: 0.73rem;
+    }
+}
+@media (max-width:435px){
+    .qtext5{
+        padding-left: 2.5em;
+    }
+}
+@media (max-width:425px){
+    .qtext5{
+        font-size: 0.71rem;
+        padding-left: 2em;
+    }
+    .ldown5{
+        font-size: 0.8rem;
+    }
+    .lup5{
+        font-size: 0.8rem;
+    }
+    .qpara5{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:405px){
+    .qtext5{
+        padding-left: 1.66em;
+    }
+}
+@media (max-width:396px){
+    .qtext5{
+        padding-left: 1.2em;
+    }
+}
+@media (max-width:389px){
+    .qtext5{
+        font-size: 0.69rem;
+        padding-left: 1.1em;
+    }
+    .ldown5{
+        font-size: 0.7rem;
+    }
+    .lup5{
+        font-size: 0.7rem;
+    }
+    .qpara5{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width:380px){
+    .qution5{
+        position: relative;
+        left: 0.3em;
+    }
+    .qtext5{
+        position: relative;
+        left: 0.3em;
+        font-size: 0.65rem;
+    }
+}
+@media (max-width:362px){
+    .qution5{
+        font-size: 0.8rem;
+    }
+    .qtext5{
+        padding-left:1.1em;
+        font-size: 0.6rem;
+    }
+}
+@media (max-width:340px){
+    .qtext5{
+        position: relative;
+        left: 0.4rem;
+        padding-left: 1em;
+    }
+}
+@media (max-width:335px){
+    .qtext5{
+        font-size: 0.5rem;
+        padding-left: 1.5rem;
+    }
+}
+@media (max-width:325px){
+    .qtext5{
+        padding-left: 0.7rem;
+    }
+}

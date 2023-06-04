@@ -1,0 +1,35 @@
+@import url(Question1.css);
+@import url(question2.css);
+@import url(question3.css);
+@import url(question4.css);
+@import url(question5.css);
+@import url(question6.css);
+
+@import url(header.css);
+@import url(traveloption.css);
+@import url(about-trip.css);
+@import url(footicons.css);
+@import url(downloadalibaba.css);
+@import url(lastfoot.css);
+
+@font-face {
+    font-family: font1;
+    src: url(assets/fonts/KalamehWeb_Regular.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(assets/fonts/KalamehWeb_Black.ttf);
+}
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: font1;
+}
+:root{
+    --m-color:#7505ff;
+}
+body{
+    overflow-x: hidden;
+    height: 100vh;
+}

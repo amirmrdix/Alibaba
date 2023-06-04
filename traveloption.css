@@ -1,0 +1,443 @@
+.trip{
+    background-image: url(assets/header-bg.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.tripdetail{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    transform: translateY(25rem);
+}
+.tripdetail ul{
+    display: flex;
+    list-style-type: none;
+}
+.tripdetail ul section{
+    display: flex;
+    align-items: center;
+    padding: 2em 3.063em;
+    background-color: white;
+    cursor: pointer;
+}
+.tripdetail ul section:first-child{
+    border-radius: 0 1em 0 0;
+}
+.tripdetail ul section:last-child{
+    border-radius: 1em 0 0 0;
+}
+.tripdetail ul section:hover{
+    background-color:#e6e4e4;
+    color: var(--m-color);
+}
+.tripdetail ul section:hover i{
+    transform: translateY(-5px);
+    transition: 0.2s;
+    font-size: 1.3em;
+}
+.tripdetail ul section li{
+    font-size: 2rem;
+    margin-right: 0.25em;
+}
+.tripdetail ul section i{
+    font-size: 1.2rem;
+}
+.tripdetail ul section:hover i{
+    border-bottom: 2px solid var(--m-color);
+    padding-bottom: 0.1em;
+}
+
+
+
+
+
+
+
+
+
+.traveloption{
+    display: flex;
+    justify-content: center;
+}
+.traveloption section{
+    padding: 0 1.5em;
+    transform: translateY(26rem);
+    z-index: 2;
+}
+.traveloption section input{
+    font-size: 1rem;
+    outline: none;
+    padding: 1.1em 1em 1.1em 0 ;
+    border: 1px solid #565656;
+    transition: 0.2s;
+}
+.traveloption section .input6{
+    padding-left: 1.5em;
+    background-color: var(--m-color);
+    color: white;
+}
+.traveloption section input::placeholder{
+    font-size: 1.5rem;
+}
+.traveloption .input1{
+    border-radius: 0.3em 1em 1em 0.3em;
+}
+.traveloption .input2{
+    border-radius: 1em 0.3em 0.3em 1em;
+}
+.traveloption .input3{
+    border-radius: 0.3em 1em 1em 0.3em;
+}
+.traveloption .input4{
+    border-radius: 1em 0.3em 0.3em 1em;
+}
+.traveloption .input5{
+    border-radius: 0.3em 1em 1em 0.3em;
+}
+.traveloption .input6{
+    border-radius: 1em 0.3em 0.3em 1em;
+    cursor: pointer;
+    font-family: font1;
+    font-weight: 600;
+}
+.butarroow i{
+    font-size: 1.2rem;
+    color: white;
+}
+.butarroow{
+    border-radius: 50%;
+    padding: 0.4em;
+    border: none;
+    transform: translateY(0.2rem);
+    cursor: pointer;
+    background-color: var(--m-color);
+}
+.traveloption section input:focus{
+    border: 1px solid var(--m-color);
+    box-shadow: 0 0 8px var(--m-color);
+}
+.traveloption section .input5:invalid{
+    border: 1px solid red;
+    box-shadow: 0 0 8px red;
+}
+
+
+
+.bcolorp{
+    display: flex;
+    justify-content: center;
+}
+.bcolor{
+    background-color: white;
+    width: 66.6rem; height: 6.5rem;
+    transform: translateY(21rem);
+    border-radius: 0 0 1em 1em;
+    border-top: 0.05em solid #717171;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1920px){
+    .tripdetail{
+        transform: translateY(35rem);
+    }
+    .tripdetail ul section{
+        padding: 2.5em 3.563em;
+    }
+    .tripdetail ul section li{
+        font-size: 2.5rem;
+    }
+    .tripdetail ul section i{
+        font-size: 1.7rem;
+    }
+    .tripdetail ul section:hover i{
+        font-size: 1.8em;
+    }
+
+
+
+
+    .traveloption section{
+        transform: translateY(36rem);
+    }
+    .traveloption section input{
+        font-size: 1.2rem;
+    }
+    .traveloption section input::placeholder{
+        font-size: 1.7rem;
+    }
+    .butarroow i{
+        font-size: 1.6rem;
+        color: white;
+    }
+    .bcolor{
+        width: 81.2rem;
+        height: 7rem;
+        transform: translateY(30.5rem);
+    }
+}
+@media (max-width:1560px){
+    .tripdetail{
+        transform: translateY(25rem);
+    }
+    .tripdetail ul section{
+        padding: 2em 3.063em;
+    }
+    .tripdetail ul section li{
+        font-size: 2rem;
+    }
+    .tripdetail ul section i{
+        font-size: 1.2rem;
+    }
+    .tripdetail ul section:hover i{
+        font-size: 1.3em;
+    }
+
+
+
+
+    .traveloption section{
+        transform: translateY(26rem);
+    }
+    .traveloption section input{
+        font-size: 1rem;
+    }
+    .traveloption section input::placeholder{
+        font-size: 1.5rem;
+    }
+    .butarroow i{
+        font-size: 1.2rem;
+        color: white;
+    }
+    .bcolor{
+        width: 66.6rem;
+        height: 6.5rem;
+        transform: translateY(21rem);
+    }
+}
+@media (max-width:1100px){
+    .trip{
+        height: 75vh;
+    }
+    .tripdetail{
+        transform: translateY(25rem);
+    }
+    .tripdetail ul section{
+        padding: 1.5em 2.563em;
+    }
+    .tripdetail ul section li{
+        font-size: 2rem;
+    }
+    .tripdetail ul section i{
+        font-size: 1.05rem;
+    }
+    .tripdetail ul section:hover i{
+        font-size: 1.15em;
+    }
+
+
+
+
+    .traveloption section{
+        transform: translateY(25rem);
+    }
+    .traveloption section input{
+        font-size: 0.85rem;
+    }
+    .traveloption section input::placeholder{
+        font-size: 1.25rem;
+    }
+    .butarroow i{
+        font-size: 0.85rem;
+        color: white;
+    }
+    .bcolor{
+        width: 59.7rem;
+        height: 5rem;
+        transform: translateY(21rem);
+    }
+}
+@media (max-width:975px){
+    .trip{
+        height: 65vh;
+    }
+    .tripdetail{
+        transform: translateY(15rem);
+    }
+    .tripdetail ul section{
+        padding: 1em 2.063em;
+    }
+    .tripdetail ul section li{
+        font-size: 1.5rem;
+    }
+    .tripdetail ul section i{
+        font-size: 0.8rem;
+    }
+    .tripdetail ul section:hover i{
+        font-size: 0.9em;
+    }
+
+
+
+
+    .traveloption section{
+        transform: translateY(15.5rem);
+    }
+    .traveloption section input{
+        font-size: 0.65rem;
+    }
+    .traveloption section input::placeholder{
+        font-size: 1rem;
+    }
+    .butarroow i{
+        font-size: 0.65rem;
+        color: white;
+    }
+    .bcolor{
+        width: 46.5rem;
+        height: 3.7rem;
+        transform: translateY(12.5rem);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .trip{
+        height: 60vh;
+    }
+    .traveloption{
+        display: none;
+    }
+    .bcolorp{
+        display: none;
+    }
+    .tripdetail ul section{
+        border: 0.5px solid rgb(132, 132, 132);
+    }
+    .tsec2{
+        border-radius: 1em 0 0 0;
+    }
+    .tsec5{
+        border-radius: 0 0 1em 0;
+    }
+    .tripdetail ul section:first-child{
+        border-radius: 0 1em 0 0;
+    }
+    .tripdetail ul section:last-child{
+        border-radius: 0 0 0 1em;
+    }
+
+
+
+
+
+    .tripdetail ul{
+        display: grid;
+        grid-template-columns: repeat(2,11rem);
+        grid-template-rows: repeat(3,6rem);
+        gap: 0.1em;
+    }
+    .tripdetail{
+        transform: translateY(8rem);
+    }
+    .tripdetail ul section li{
+        font-size: 2rem;
+    }
+    .tripdetail ul section i{
+        font-size: 1.4rem;
+    }
+    .tripdetail ul section:hover i{  
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:555px){
+    .trip{
+        height: 60vh;
+    }
+
+
+    .tripdetail ul{
+        display: grid;
+        grid-template-columns: repeat(2,9rem);
+        grid-template-rows: repeat(3,5rem);
+        gap: 0.1em;
+    }
+    .tripdetail{
+        transform: translateY(10rem);
+    }
+    .tripdetail ul section li{
+        font-size: 1.7rem;
+    }
+    .tripdetail ul section i{
+        font-size: 1.2rem;
+    }
+    .tripdetail ul section:hover i{  
+        font-size: 1.3em;
+    }
+}
+@media (max-width:390px){
+    .trip{
+        height: 55vh;
+    }
+
+
+    .tripdetail ul{
+        display: grid;
+        grid-template-columns: repeat(2,7.5rem);
+        grid-template-rows: repeat(3,4.5rem);
+        gap: 0.1em;
+    }
+    .tripdetail{
+        transform: translateY(8rem);
+    }
+    .tripdetail ul section li{
+        font-size: 1.4rem;
+    }
+    .tripdetail ul section i{
+        font-size: 0.8rem;
+    }
+    .tripdetail ul section:hover i{  
+        font-size: 0.9em;
+    }
+}

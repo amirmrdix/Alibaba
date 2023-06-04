@@ -1,0 +1,425 @@
+.question2{
+    width: 80%;
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 2em;
+}
+.q2{
+    background-color: #ebebeb;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 8px var(--m-color);
+}
+.checkbox2{
+    display: none;
+}
+.qution2{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+.qtext2{
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-right: 0.8%;
+    cursor: pointer;
+    position: relative;
+    bottom: 0.1em;
+    padding-left: 28em;
+}
+.lup2{
+    font-size: 1.5rem;
+    display: none;
+    transition: 0.2s;
+    position: relative;
+    right: 1.4em;
+}
+.lup2 label{
+    cursor: pointer;
+}
+.lup2:hover{
+    color: var(--m-color);
+}
+.ldown2{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    right: 1.4em;
+}
+.ldown2:hover{
+    color: var(--m-color);
+}
+.line2l{
+    display: none;
+    margin-top: 1em;
+}
+.qpara2{
+    font-size: 1.4rem;
+    color: #3e3e3e;
+    margin-top: 0.8em;
+    display: none;
+}
+#infocheck2:checked ~ .lup2{
+    display: inline;
+}
+#infocheck2:checked ~ .ldown2{
+    display: none;
+}
+#infocheck2:checked ~ .line2l{
+    display: block;
+}
+#infocheck2:checked ~ .qpara2{
+    display: block;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1920px){
+    .qtext2{
+        padding-left: 32em;
+    }
+}
+@media (max-width:1670px){
+    .qtext2{
+        padding-left: 30.5em;
+    }
+}
+@media (max-width:1610px){
+    .qtext2{
+        padding-left: 28.5em;
+    }
+}
+@media (max-width:1550px){
+    .qtext2{
+        padding-left: 27em;
+    }
+}
+@media (max-width:1500px){
+    .qtext2{
+        padding-left: 26em;
+    }
+}
+@media (max-width:1460px){
+    .qtext2{
+        padding-left: 25em;
+    }
+}
+@media (max-width:1425px){
+    .qtext2{
+        padding-left: 24em;
+    }
+}
+@media (max-width:1390px){
+    .qtext2{
+        padding-left: 23em;
+    }
+}
+@media (max-width:1355px){
+    .qtext2{
+        padding-left: 22em;
+    }
+}
+@media (max-width:1320px){
+    .qtext2{
+        padding-left: 21em;
+    }
+}
+@media (max-width:1288px){
+    .qtext2{
+        padding-left: 20em;
+    }
+}
+@media (max-width:1252px){
+    .qtext2{
+        padding-left: 19em;
+    }
+}
+@media (max-width:1217px){
+    .qtext2{
+        padding-left: 18em;
+    }
+}
+@media (max-width:1185px){
+    .qtext2{
+        padding-left: 17em;
+    }
+}
+@media (max-width:1150px){
+    .qtext2{
+        padding-left: 16em;
+    }
+}
+@media (max-width:1112px){
+    .qtext2{
+        padding-left: 15em;
+    }
+}
+@media (max-width:1085px){
+    .qtext2{
+        padding-left: 14em;
+    }
+}
+@media (max-width:1050px){
+    .qtext2{
+        padding-left: 13em;
+    }
+}
+@media (max-width:1015px){
+    .qtext2{
+        padding-left: 12em;
+    }
+}
+@media (max-width:977px){
+    .qtext2{
+        padding-left: 11em;
+    }
+}
+@media (max-width:965px){
+    .qtext2{
+        padding-left: 10.5em;
+    }
+}
+@media (max-width:935px){
+    .qtext2{
+        padding-left: 10em;
+    }
+}
+@media (max-width:910px){
+    .qtext2{
+        padding-left: 9em;
+    }
+}
+@media (max-width:885px){
+    .qtext2{
+        padding-left: 8em;
+    }
+}
+@media (max-width:860px){
+    .qtext2{
+        padding-left: 7.5em;
+    }
+}
+@media (max-width:835px){
+    .qtext2{
+        padding-left: 6.5em;
+    }
+}
+@media (max-width:810px){
+    .qtext2{
+        padding-left: 6em;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .qution2{
+        font-size: 1.3rem;
+    }
+    .qtext2{
+        font-size: 1.5rem;
+        padding-left: 5.7em;
+    }
+    .lup2{
+        font-size: 1.2rem;
+    }
+    .ldown2{
+        font-size: 1.2rem;
+    }
+    .qpara2{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width:768px){
+    .qtext2{
+        padding-left: 8em;
+    }
+}
+@media (max-width:745px){
+    .qtext2{
+        padding-left: 7.5em;
+    }
+}
+@media (max-width:728px){
+    .qtext2{
+        padding-left: 7.3em;
+    }
+}
+@media (max-width:723px){
+    .qtext2{
+        padding-left: 7em;
+    }
+}
+@media (max-width:715px){
+    .qtext2{
+        padding-left: 6.8em;
+    }
+}
+@media (max-width:708px){
+    .qution2{
+        font-size: 1.2rem;
+    }
+    .qtext2{
+        font-size: 1.4rem;
+        padding-left: 7.2em;
+    }
+}
+@media (max-width:683px){
+    .qution2{
+        font-size: 1.1rem;
+    }
+    .qtext2{
+        padding-left:8em;
+        font-size:1.3rem ;
+    }
+}
+@media (max-width:637px){
+    .qtext2{
+        padding-left:6.5em;
+    }
+}
+@media (max-width:628px){
+    .qtext2{
+        padding-left:6.8em;
+        font-size:1.2rem ;
+    }
+}
+@media (max-width:610px){
+    .qtext2{
+        padding-left: 6em;
+    }
+}
+@media (max-width:585px){
+    .qtext2{
+        padding-left: 5em;
+    }
+}
+@media (max-width:557px){
+    .qution2{
+        margin-right: 0;
+    }
+    .qtext2{
+        font-size: 1.1rem;
+        padding-left: 6em;
+    }
+}
+@media (max-width:545px){
+    .qtext2{
+        padding-left: 5.2em;
+    }
+}
+@media (max-width:525px){
+    .qtext2{
+        font-size: 1rem;
+        padding-left: 6em;
+        margin-left: 0.1rem;
+    }
+    .qpara2{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:520px){
+    .qtext2{
+        padding-left: 7em;
+    }
+}
+@media (max-width:508px){
+    .qtext2{
+        padding-left: 5em;
+    }
+}
+@media (max-width:485px){
+    .qtext2{
+        padding-left: 4.5em;
+    }
+}
+@media (max-width:473px){
+    .qtext2{
+        font-size: 0.9rem;
+        padding-left: 5em;
+    }
+}
+@media (max-width:450px){
+    .qtext2{
+        padding-left: 4.5em;
+    }
+}
+@media (max-width:425px){
+    .qution2{
+        font-size: 1.05rem;
+    }
+    .qtext2{
+        padding-left: 3em;
+    }
+    .ldown2{
+        font-size: 0.8rem;
+    }
+    .lup2{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:398px){
+    .qtext2{
+        padding-left: 2em;
+    }
+}
+@media (max-width:380px){
+    .qtext2{
+        font-size: 0.8rem;
+        padding-left: 3em;
+    }
+    .ldown2{
+        font-size: 0.8rem;
+    }
+    .lup2{
+        font-size: 0.8rem;
+    }
+    .qpara2{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width:360px){
+    .qution2{
+        font-size: 0.8rem;
+    }
+    .qtext2{
+        padding-left: 2em;
+    }
+}
+@media (max-width:347px){
+    .qution2{
+        margin-left: 0.1em;
+    }
+    .qtext2{
+        padding-left: 1.5em;
+        margin-left: 0.1em;
+    }
+}
+@media (max-width:338px){
+    .qtext2{
+        font-size: 0.7rem;
+        padding-left: 2em;
+    }
+    .ldown2{
+        font-size: 0.7rem;
+    }
+    .lup2{
+        font-size: 0.7rem;
+    }
+}

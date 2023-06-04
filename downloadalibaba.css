@@ -1,0 +1,483 @@
+.downloadalibaba{
+    margin: 2rem 8rem 0;
+}
+.downloadalibaba h3{
+    font-family: font2;
+    font-size: 2rem;
+}
+.downloadalibabaff{
+    display: flex;
+    align-items: center;
+}
+.downloadalibabaff .isections{
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+.downloadalibabaff p{
+    font-size: 1.5rem;
+    color: #363636;
+    margin-right: 0;
+    margin-top: 0.3rem;
+}
+.downloadtx p{
+    width: 30rem;
+}
+.downloadalibabaff section{
+    display: flex;
+    align-items: center;
+    border: 1px solid #3e3e3e;
+    border-radius: 0.4em;
+    padding: 0.3em;
+    cursor: pointer;
+    margin: 0 1rem 0;
+    transition: 0.2s;
+}
+.downloadalibabaff section:hover{
+    box-shadow: 0 0 8px var(--m-color);
+}
+.downloadalibabaff section:hover p{
+    color: var(--m-color);
+}
+.downloadalibabaff section p{
+    font-weight: 900;
+    margin-right: 0.5rem;
+}
+.downloadalibabaff section:last-child i{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1920px){
+    .downloadalibaba{
+        position: relative;
+        right: 7rem;
+    }
+    .downloadalibaba h3{
+        position: relative;
+        right: 2rem;
+    }
+    .downloadalibabaff .downloadtx p{
+        position: relative;
+        right: 2rem;
+    }
+    .isections section{
+        position: relative;
+        right: 12rem;
+    }
+}
+@media (max-width:1700px){
+    .downloadalibaba{
+        position: relative;
+        right: 2rem;
+    }
+    .isections section{
+        position: relative;
+        right: 6rem;
+    }
+}
+@media (max-width:1560px){
+    .downloadalibaba{
+        position: relative;
+        right: 0;
+    }
+    .downloadalibaba h3{
+        position: relative;
+        right: 0;
+    }
+    .downloadalibabaff .downloadtx p{
+        position: relative;
+        right: 0;
+    }
+    .isections section{
+        position: relative;
+        right: 0;
+    }
+}
+@media (max-width:1530px){
+    .sibapp p{
+        width: 4.5rem;
+    }
+    .mostagimdown p{
+        width: 7.5rem;
+    }
+}
+@media (max-width:1380px){
+    .isections section{
+        position: relative;
+        right: -4rem;
+    }
+}
+@media (max-width:1310px){
+    .isections section{
+        position: relative;
+        right: -7rem;
+    }
+}
+@media (max-width:1260px){
+    .downloadalibaba{
+        position: relative;
+        right: -3rem;
+    }
+}
+@media (max-width:1195px){
+    .downloadalibaba{
+        position: relative;
+        right: -4rem;
+    }
+    .downloadalibaba h3{
+        font-size: 1.8rem;
+    }
+    .downloadtx p{
+        font-size: 1.3rem;
+    }
+    .isections section{
+        position: relative;
+        right: -9rem;
+    }
+    .isections section img{
+        width: 1.3rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 1.3rem;
+    }
+    .isections section p{
+        font-size: 1.3rem;
+    }
+    .sibapp p{
+        width: 3.8rem;
+    }
+    .mostagimdown p{
+        width: 6.5rem;
+    }
+}
+@media (max-width:1100px){
+    .isections section{
+        position: relative;
+        right: -14rem;
+    }
+}
+@media (max-width:1010px){
+    .downloadalibaba{
+        position: relative;
+        right: -3rem;
+    }
+    .downloadalibaba h3{
+        font-size: 1.6rem;
+    }
+    .downloadtx p{
+        font-size: 1.1rem;
+    }
+    .isections section{
+        position: relative;
+        right: -16rem;
+        margin: 0 0.6rem 0;
+    }
+    .isections section img{
+        width: 1.1rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 1.1rem;
+    }
+    .isections section p{
+        font-size: 1.1rem;
+    }
+    .sibapp p{
+        width: 3.2rem;
+    }
+    .mostagimdown p{
+        width: 5.4rem;
+    }
+}
+@media (max-width:910px){
+    .downloadalibaba{
+        position: relative;
+        right: -4rem;
+    }
+    .downloadalibaba h3{
+        font-size: 1.6rem;
+    }
+    .downloadtx p{
+        font-size: 1.1rem;
+    }
+    .isections section{
+        position: relative;
+        right: -18rem;
+        margin: 0 0.6rem 0;
+    }
+    .isections section img{
+        width: 1.1rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 1.1rem;
+    }
+    .isections section p{
+        font-size: 1.1rem;
+    }
+    .sibapp p{
+        width: 3.2rem;
+    }
+    .mostagimdown p{
+        width: 5.4rem;
+    }
+}
+@media (max-width:860px){
+    .downloadalibaba{
+        position: relative;
+        right: -4rem;
+    }
+    .downloadalibaba h3{
+        font-size: 1.4rem;
+    }
+    .downloadtx p{
+        font-size: 0.9rem;
+    }
+    .isections section{
+        position: relative;
+        right: -20rem;
+        margin: 0 0.5rem 0;
+    }
+    .isections section img{
+        width: 0.9rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 0.9rem;
+    }
+    .isections section p{
+        font-size: 0.9rem;
+    }
+    .sibapp p{
+        width: 2.8rem;
+    }
+    .mostagimdown p{
+        width: 4.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .downloadalibaba{
+        position: relative;
+        right: 0;
+    }
+    .downloadalibaba h3{
+        font-size: 1.8rem;
+        width: 100vw;
+    }
+    .downloadalibabaff{
+        flex-direction: column;
+    }
+    .downloadtx p{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+    .isections section{
+        position: relative;
+        right: -5rem;
+        margin: 2rem 1rem 0;
+    }
+    .isections section img{
+        width: 1.3rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 1.3rem;
+    }
+    .isections section p{
+        font-size: 1.3rem;
+    }
+    .sibapp p{
+        width: 3.8rem;
+    }
+    .mostagimdown p{
+        width: 6.5rem;
+    }
+    .line2 hr{
+        margin:  0 -2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+    .downloadalibaba h3{
+        position: relative;
+        right: -2rem;
+    }
+}
+@media (max-width:640px){
+    .downloadalibaba h3{
+        position: relative;
+        right: -4rem;
+    }
+}
+@media (max-width:580px){
+    .downloadalibaba h3{
+        position: relative;
+        right: -6rem;
+    }
+}
+@media (max-width:530px){
+    .line2 hr{
+        margin: 0 -4rem;
+    }
+}
+@media (max-width:520px){
+    .downloadalibaba h3{
+        font-size: 1.6rem;
+    }
+    .downloadtx p{
+        margin-top: 0.8rem;
+        font-size: 1.1rem;
+        transform: translateX(-1.5rem);
+    }
+    .isections section{
+        position: relative;
+        right: -5rem;
+        margin: 1.7rem 0.8rem 0;
+    }
+    .isections section img{
+        width: 1.1rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 1.1rem;
+    }
+    .isections section p{
+        font-size: 1.1rem;
+    }
+    .sibapp p{
+        width: 3.2rem;
+    }
+    .mostagimdown p{
+        width: 5.4rem;
+    }
+}
+@media (max-width:460px){
+    .downloadalibaba{
+        position: relative;
+        bottom: 1.5rem;
+    }
+    .downloadalibaba h3{
+        font-size: 1.5rem;
+    }
+    .downloadtx p{
+        margin-top: 0.7rem;
+        font-size: 1rem;
+        transform: translateX(-3rem);
+    }
+    .isections section{
+        position: relative;
+        right: -5rem;
+        margin: 1.5rem 0.6rem 0;
+    }
+    .isections section img{
+        width: 1rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 1rem;
+    }
+    .isections section p{
+        font-size: 1rem;
+    }
+    .sibapp p{
+        width: 2.9rem;
+    }
+    .mostagimdown p{
+        width: 5rem;
+    }
+    .line2 hr{
+        margin: 0 -5rem;
+    }
+}
+@media (max-width:398px){
+    .downloadalibaba{
+        position: relative;
+        bottom: 1.5rem;
+    }
+    .downloadalibaba h3{
+        font-size: 1.4rem;
+    }
+    .downloadtx p{
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        transform: translateX(-5.5rem);
+    }
+    .isections section{
+        position: relative;
+        right: -5rem;
+        margin: 1.3rem 0.4rem 0;
+    }
+    .isections section img{
+        width: 0.8rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 0.8rem;
+    }
+    .isections section p{
+        font-size: 0.8rem;
+    }
+    .sibapp p{
+        width: 2.5rem;
+    }
+    .mostagimdown p{
+        width: 4rem;
+    }
+    .line2 hr{
+        margin: 0 -5rem;
+    }
+}
+@media (max-width:330px){
+    .downloadalibaba{
+        position: relative;
+        bottom: 1.5rem;
+    }
+    .downloadalibaba h3{
+        font-size: 1.4rem;
+    }
+    .downloadtx p{
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        transform: translateX(-7rem);
+    }
+    .isections section{
+        position: relative;
+        right: -5rem;
+        margin: 1rem 0.3rem 0;
+    }
+    .isections section img{
+        width: 0.6rem;
+    }
+    .downloadalibabaff section:last-child i{
+        font-size: 0.6rem;
+    }
+    .isections section p{
+        font-size: 0.6rem;
+    }
+    .sibapp p{
+        width: 1.8rem;
+    }
+    .mostagimdown p{
+        width: 3.2rem;
+    }
+}

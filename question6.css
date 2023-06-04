@@ -1,0 +1,430 @@
+.question6{
+    width: 80%;
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 2em;
+}
+.q6{
+    background-color: #ebebeb;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 8px var(--m-color);
+}
+.checkbox6{
+    display: none;
+}
+.qution6{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 0.5%;
+}
+.qtext6{
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-right: 0.8%;
+    cursor: pointer;
+    position: relative;
+    bottom: 0.1em;
+    padding-left: 28em;
+}
+.lup6{
+    font-size: 1.5rem;
+    display: none;
+    transition: 0.2s;
+    position: relative;
+    right: 1.4em;
+}
+.lup6 label{
+    cursor: pointer;
+}
+.lup6:hover{
+    color: var(--m-color);
+}
+.ldown6{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    right: 1.4em;
+}
+.ldown6:hover{
+    color: var(--m-color);
+}
+.line6l{
+    display: none;
+    margin-top: 1em;
+}
+.qpara6{
+    font-size: 1.4rem;
+    color: #3e3e3e;
+    margin-top: 0.8em;
+    display: none;
+}
+#infocheck6:checked ~ .lup6{
+    display: inline;
+}
+#infocheck6:checked ~ .ldown6{
+    display: none;
+}
+#infocheck6:checked ~ .line6l{
+    display: block;
+}
+#infocheck6:checked ~ .qpara6{
+    display: block;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1920px){
+    .qtext6{
+        padding-left: 30.5em;
+    }
+}
+@media (max-width:1670px){
+    .qtext6{
+        padding-left: 29em;
+    }
+}
+@media (max-width:1610px){
+    .qtext6{
+        padding-left: 27em;
+    }
+}
+@media (max-width:1550px){
+    .qtext6{
+        padding-left: 25.5em;
+    }
+}
+@media (max-width:1500px){
+    .qtext6{
+        padding-left: 24.5em;
+    }
+}
+@media (max-width:1460px){
+    .qtext6{
+        padding-left: 23.5em;
+    }
+}
+@media (max-width:1425px){
+    .qtext6{
+        padding-left: 22.5em;
+    }
+}
+@media (max-width:1390px){
+    .qtext6{
+        padding-left: 21.5em;
+    }
+}
+@media (max-width:1355px){
+    .qtext6{
+        padding-left: 20.5em;
+    }
+}
+@media (max-width:1320px){
+    .qtext6{
+        padding-left: 19.5em;
+    }
+}
+@media (max-width:1288px){
+    .qtext6{
+        padding-left: 18.5em;
+    }
+}
+@media (max-width:1252px){
+    .qtext6{
+        padding-left: 17.5em;
+    }
+}
+@media (max-width:1217px){
+    .qtext6{
+        padding-left: 16.5em;
+    }
+}
+@media (max-width:1185px){
+    .qtext6{
+        padding-left: 15.5em;
+    }
+}
+@media (max-width:1150px){
+    .qtext6{
+        padding-left: 14.5em;
+    }
+}
+@media (max-width:1112px){
+    .qtext6{
+        padding-left: 13.5em;
+    }
+}
+@media (max-width:1085px){
+    .qtext6{
+        padding-left: 12.5em;
+    }
+}
+@media (max-width:1050px){
+    .qtext6{
+        padding-left: 11.5em;
+    }
+}
+@media (max-width:1015px){
+    .qtext6{
+        padding-left: 10.5em;
+    }
+}
+@media (max-width:977px){
+    .qtext6{
+        padding-left: 9.5em;
+    }
+}
+@media (max-width:965px){
+    .qtext6{
+        padding-left: 9em;
+    }
+}
+@media (max-width:935px){
+    .qtext6{
+        padding-left: 8.5em;
+    }
+}
+@media (max-width:910px){
+    .qtext6{
+        padding-left: 7.5em;
+    }
+}
+@media (max-width:885px){
+    .qtext6{
+        padding-left: 6.5em;
+    }
+}
+@media (max-width:860px){
+    .qtext6{
+        padding-left: 6em;
+    }
+}
+@media (max-width:835px){
+    .qtext6{
+        padding-left: 5.5em;
+    }
+}
+@media (max-width:810px){
+    .qtext6{
+        padding-left: 5em;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .qution6{
+        font-size: 1.3rem;
+    }
+    .qtext6{
+        font-size: 1.5rem;
+        padding-left: 4.7em;
+    }
+    .lup6{
+        font-size: 1.2rem;
+    }
+    .ldown6{
+        font-size: 1.2rem;
+    }
+    .qpara6{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width:768px){
+    .qtext6{
+        padding-left: 7em;
+    }
+}
+@media (max-width:745px){
+    .qtext6{
+        padding-left: 6.5em;
+    }
+}
+@media (max-width:728px){
+    .qtext6{
+        padding-left: 6.3em;
+    }
+}
+@media (max-width:723px){
+    .qtext6{
+        padding-left: 6em;
+    }
+}
+@media (max-width:715px){
+    .qtext6{
+        padding-left: 5.8em;
+    }
+}
+@media (max-width:708px){
+    .qution6{
+        font-size: 1.2rem;
+    }
+    .qtext6{
+        font-size: 1.4rem;
+        padding-left: 6.2em;
+    }
+}
+@media (max-width:683px){
+    .qution6{
+        font-size: 1.1rem;
+    }
+    .qtext6{
+        padding-left:7em;
+        font-size:1.3rem ;
+    }
+}
+@media (max-width:637px){
+    .qtext6{
+        padding-left:5.5em;
+    }
+}
+@media (max-width:628px){
+    .qtext6{
+        padding-left:5.8em;
+        font-size:1.2rem ;
+    }
+}
+@media (max-width:610px){
+    .qtext6{
+        padding-left: 5em;
+    }
+}
+@media (max-width:585px){
+    .qtext6{
+        padding-left: 4em;
+    }
+}
+@media (max-width:557px){
+    .qution6{
+        margin-right: 0;
+    }
+    .qtext6{
+        font-size: 1.1rem;
+        padding-left: 5em;
+    }
+}
+@media (max-width:545px){
+    .qtext6{
+        padding-left: 4.2em;
+    }
+}
+@media (max-width:525px){
+    .qtext6{
+        font-size: 1rem;
+        padding-left: 5em;
+        margin-left: 0.1rem;
+    }
+    .qpara6{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:520px){
+    .qtext6{
+        padding-left: 6em;
+    }
+}
+@media (max-width:508px){
+    .qtext6{
+        padding-left: 4em;
+    }
+}
+@media (max-width:485px){
+    .qtext6{
+        padding-left: 3.5em;
+    }
+}
+@media (max-width:473px){
+    .qtext6{
+        font-size: 0.9rem;
+        padding-left: 4em;
+    }
+}
+@media (max-width:450px){
+    .qtext6{
+        padding-left: 3.5em;
+    }
+}
+@media (max-width:425px){
+    .qution6{
+        font-size: 1.05rem;
+    }
+    .qtext6{
+        padding-left: 2em;
+    }
+    .ldown6{
+        font-size: 0.8rem;
+    }
+    .lup6{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:398px){
+    .qtext6{
+        padding-left: 1em;
+    }
+}
+@media (max-width:380px){
+    .qtext6{
+        font-size: 0.8rem;
+        padding-left: 2em;
+    }
+    .ldown6{
+        font-size: 0.8rem;
+    }
+    .lup6{
+        font-size: 0.8rem;
+    }
+    .qpara6{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width:360px){
+    .qution6{
+        font-size: 0.8rem;
+    }
+    .qtext6{
+        padding-left: 1em;
+    }
+}
+@media (max-width:347px){
+    .qution6{
+        margin-left: 0.1em;
+    }
+    .qtext6{
+        padding-left: 0.5em;
+        margin-left: 0.1em;
+    }
+}
+@media (max-width:338px){
+    .qtext6{
+        font-size: 0.7rem;
+        padding-left: 1em;
+    }
+    .ldown6{
+        font-size: 0.7rem;
+    }
+    .lup6{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:325px){
+    .qtext6{
+        padding-left: 0.5em;
+    }
+}
